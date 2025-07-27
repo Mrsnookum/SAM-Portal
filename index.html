@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Glass Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <div class="container glass">
+    <nav class="navbar">
+      <div class="logo">MyPortfolio</div>      
+      <ul class="nav-links">
+        <li><a href="#hero">Hero</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button id="toggleTheme">🌙</button>
+    </nav>
+
+   <section id="hero" class="section hero">
+  <div class="hero-flex">
+    <!-- Glassmorphism Profile Card -->
+    <div class="glass-profile-card">
+      <img src="sam.png" alt="Sam Kip" class="profile-img" />
+      <h3>Samson Kemari</h3>
+      <p>Web Designer | UI/UX Designer</p>
+      <div class="socials">
+        <a href="https://linkedin.com/in/yourusername" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://x.com/yourusername" target="_blank"><i class="fab fa-x-twitter"></i></a>
+        <a href="https://instagram.com/yourusername" target="_blank"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+
+    <div class="hire-me-container">
+  <a href="#contact" class="hire-me-button">Hire Me</a>
+</div>
+
+
+    <!-- Hero Content Cards -->
+    <div class="hero-cards">
+      <div class="hero-card">
+        <h2>Hello, I'm a Creative Designer</h2>
+        <p>Our designs speak, our interfaces convert and our innovation connects.</p>
+      </div>
+      <div class="hero-card">
+        <p>At Design Sphere Innovations, we breathe life into brands through bold graphic design, seamless websites, and engaging user interfaces — combining strategy, style, and smart tech.</p>
+      </div>
+      <div class="hero-card">
+        <h4>Vision Statement</h4>
+        <p>To be the most trusted creative powerhouse in Africa that transforms ideas into impactful digital and visual experiences through bold design, innovative solutions, and human-centered digital experiences.</p>
+      </div>
+      <div class="hero-card">
+        <h4>Mission Statement</h4>
+        <p>To help individuals and businesses build exceptional brand identities and platforms with creativity, clarity, and confidence.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    <section id="about" class="section">
+  <h2 class="section-title">About Me</h2>
+  <div class="about-container">
+    <div class="about-card">
+      <h3>Who We Are</h3>
+      <p>
+        Design Sphere Innovations is a Kenyan-based creative brand studio specializing in visual identity,
+        intuitive user experiences, and strategic digital solutions.
+      </p>
+    </div>
+
+    <div class="about-card">
+      <h3>Our Mission</h3>
+      <p>
+        We help entrepreneurs, startups, and businesses unlock their full potential through branding,
+        design, and smart web technology. We blend innovation, aesthetic precision, and functionality.
+      </p>
+    </div>
+
+    <div class="about-card">
+      <h3>What We Believe</h3>
+      <ul>
+        <li>Creativity with Purpose</li>
+        <li>Client-Centered Thinking</li>
+        <li>Innovation-Driven Design</li>
+        <li>Attention to Detail</li>
+        <li>Integrity and Reliability</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+
+    <section id="portfolio" class="section">
+      <section class="projects-section">
+  <h2>My Work</h2>
+  <div class="projects-grid">
+    <div class="project-card">
+      <img src="project1.jpg" alt="Project A">
+      <div class="project-info">🧩 Project A</div>
+    </div>
+    <div class="project-card">
+      <img src="project2.jpg" alt="Project B">
+      <div class="project-info">📱 Project B</div>
+    </div>
+    <div class="project-card">
+      <img src="project3.jpg" alt="Project C">
+      <div class="project-info">💻 Project C</div>
+    </div>
+  </div>
+</section>
+
+
+<h2>My Work</h2>
+<div class="work-cards">
+  <div class="work-card">
+    <h3>🎨 Visual Identity Design</h3>
+    <ul>
+      <li>Logos</li>
+      <li>Business Cards</li>
+      <li>Flyers</li>
+      <li>Posters</li>
+    </ul>
+  </div>
+
+  <div class="work-card">
+    <h3>💻 Website Design & Development</h3>
+    <ul>
+      <li>Responsive Websites</li>
+      <li>Landing Pages</li>
+      <li>E-Commerce</li>
+    </ul>
+  </div>
+
+  <div class="work-card">
+    <h3>📱 UI/UX Projects</h3>
+    <ul>
+      <li>Mobile App Interfaces</li>
+      <li>Dashboards</li>
+      <li>Web Apps</li>
+    </ul>
+  </div>
+</div>
+
+    </section>
+
+<section id="reviews" class="section">
+  <h2>Reviews</h2>
+  <div class="review-slider" onmouseover="pauseSlide()" onmouseout="resumeSlide()">
+    <div class="review-track">
+
+      <div class="review-card">
+        <img src="reviewer1.jpg" alt="Jane Wanjiku">
+        <h4>Jane Wanjiku</h4>
+        <div class="stars">⭐⭐⭐⭐⭐</div>
+        <p>"Great experience!"</p>
+      </div>
+
+      <div class="review-card">
+        <img src="reviewer2.jpg" alt="Brighton Miyogo">
+        <h4>Brighton Miyogo</h4>
+        <div class="stars">⭐⭐⭐⭐</div>
+        <p>"Very creative!"</p>
+      </div>
+
+      <div class="review-card">
+        <img src="reviewer3.jpg" alt="Amina Yusuf">
+        <h4>Amina Yusuf</h4>
+        <div class="stars">⭐⭐⭐⭐⭐</div>
+        <p>"Highly recommended."</p>
+      </div>
+
+      <div class="review-card">
+        <img src="reviewer4.jpg" alt="John Otieno">
+        <h4>John Otieno</h4>
+        <div class="stars">⭐⭐⭐⭐</div>
+        <p>"Smooth process."</p>
+      </div>
+      <!-- Add more review-card elements as needed -->
+    </div>
+  </div>
+</section>
+
+
+<script>
+  const track = document.querySelector('.review-track');
+  const cards = document.querySelectorAll('.review-card');
+  const cardWidth = cards[0].offsetWidth + 16; // include gap
+  let index = 0;
+  let interval;
+
+  function startSlide() {
+    interval = setInterval(() => {
+      index++;
+      if (index > cards.length - 3) index = 0;
+      track.style.transform = `translateX(-${index * cardWidth}px)`;
+    }, 4000);
+  }
+
+  function pauseSlide() {
+    clearInterval(interval);
+  }
+
+  function resumeSlide() {
+    startSlide();
+  }
+
+  window.addEventListener("load", () => {
+    startSlide();
+  });
+</script>
+
+
+    <section id="contact" class="section">
+  <h2>Contact Me</h2>
+  <form id="contactForm">
+    <input type="text" id="name" placeholder="Your Name" required />
+    <input type="email" id="email" placeholder="Your Email" required />
+    <textarea id="message" placeholder="Your Message" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+  <p id="response"></p>
+</section>
+
+<script>
+  document.getElementById("contactForm").addEventListener("submit", async function (e) {
+    e.preventDefault();
+
+    const name = document.getElementById("name").value.trim();
+    const email = document.getElementById("email").value.trim();
+    const message = document.getElementById("message").value.trim();
+    const response = document.getElementById("response");
+
+    const formData = new URLSearchParams();
+    formData.append("name", name);
+    formData.append("email", email);
+    formData.append("message", message);
+
+    try {
+      const res = await fetch("https://script.google.com/macros/s/AKfycbwqOzuDiDsnrxG90zHiGeIdsr7StMzhCxnReEv2YEvAuSGWEWuLPwWKs58Veg3smh0/exec", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/x-www-form-urlencoded",
+        },
+        body: formData.toString()
+      });
+
+      const text = await res.text();
+      if (text === "success") {
+        response.innerText = "Message sent successfully!";
+        response.style.color = "green";
+        document.getElementById("contactForm").reset();
+      } else {
+        response.innerText = "Error sending message.";
+        response.style.color = "red";
+      }
+    } catch (err) {
+      response.innerText = "Error connecting to server.";
+      response.style.color = "red";
+    }
+  });
+</script>
+
+
+<!-- Footer Section -->
+<footer class="footer">
+  <div class="footer-content">
+    <p>&copy; 2025 Design Sphere Innovations. All rights reserved.</p>
+    <div class="social-icons">
+      <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+      <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a> <br>
+      
+      <p> developed by <a href="https://mrsnookum.github.io/Brighton-Portfolio/">Brighton the Dev</a></p>
+      
+    </div>
+  </div>
+</footer>
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>
